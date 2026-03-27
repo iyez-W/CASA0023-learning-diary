@@ -1,8 +1,8 @@
-# Week 5 – Google Earth Engine I
+# Week 5 Google Earth Engine 
 
-# Summary
+## Summary
 
-## How to use GEE - Step by Step
+### How to use GEE - Step by Step
 
 Step 1: Defining the study area. The practical began by setting up the study area in Google Earth Engine (GEE). This was first done using a point geometry, which allowed the map to be centred on the location and provided an initial spatial reference for filtering imagery.
 
@@ -24,23 +24,28 @@ Step 9: Running PCA PCA was then carried out to reduce the dimensionality of the
 
 Step 10: Exporting the results Finally, the outputs were exported from GEE to Google Drive for future use in other software or later analysis.
 
-# Application
+## Application
 
 Google Earth Engine (GEE) has particular value for long-term monitoring, large-scale mapping, and operational decision support, as it integrates multi-source datasets, ready-to-use algorithms, and export functions within a single platform. Its development has made the processing of global and regional time-series imagery considerably more efficient than traditional desktop-based workflows. In particular, Landsat, as one of the most widely used datasets, has been applied across a broad range of fields, from forest and vegetation studies to medical research, including applications related to malaria (Kumar and Mutanga, 2018; Zhao et al., 2021).
 
-## vegetation and ecosystem monitoring
+![Keywords related to Google Earth Engine  (Zhao et al., 2021)](img/W5_1.png){width="70%"}
+
+
+##3 vegetation and ecosystem monitoring
 
 Mutanga and Kumar (2019) review several applications in which GEE has been used to estimate biodiversity-related variables, such as leaf area index, fraction of absorbed photosynthetically active radiation, vegetation cover, and canopy water content, as well as to monitor vegetation dynamics over time. They also highlight practical examples, including the use of MODIS-derived Enhanced Vegetation Index (EVI) for vegetation monitoring in Vietnam, multi-season Landsat composites for land cover and vegetation mapping in a nature reserve in China, and long-term mapping of pasture dynamics in Brazil between 2000 and 2016.
 
-## land use and land cover mapping.
+### land use and land cover mapping.
 
 Previous studies have used it to generate dynamic land cover maps of Beijing and to reconstruct more than three decades of land use and land cover change across Brazilian biomes (Lee et al., 2018; Tsai et al., 2018). In addition, large volumes of surface temperature data have been successfully extracted using thousands of Landsat images over extended time periods, demonstrating GEE’s capacity to process and analyse large-scale, long-term datasets (Ravanelli et al., 2018; Velastegui-Montoya et al., 2023).
 
-## agriculture and disaster management.
+![Evolution of key remote sensing applications in Google Earth Engine  (Velastegui-Montoya., 2023)](img/W5_2.png){width="70%"}
+
+### agriculture and disaster management.
 
 Studies have applied it to cropland mapping in the United States and across Africa, mapping of smallholder farming systems, crop yield estimation, flood monitoring and emergency response, flood inundation mapping, and the analysis of global soil moisture datasets (Aguilar et al., 2018; He et al., 2018). These examples indicate that GEE functions not only as a research tool, but also as a platform capable of supporting real-world monitoring and early warning systems.
 
-# Reflection
+## Reflection
 
 This week marked my first substantial engagement with Google Earth Engine (GEE), and it was the first time that remote sensing felt more tangible in practice. My experience with GEE coding has been mixed. At the outset, it felt unfamiliar and somewhat challenging, as its syntax and logic differ from both Python and R, requiring a degree of adjustment. However, once I began working through the workflow, it became more intuitive and, at times, quite engaging. From defining a study area and filtering imagery to generating outputs and exporting results, the process can be carried out in a relatively continuous and coherent manner. This made it easier to see how different stages of a remote sensing analysis are connected. That said, my familiarity with the code remains limited, and even minor errors can still be difficult to troubleshoot with confidence.
 
