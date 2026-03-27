@@ -1,0 +1,92 @@
+# References {.unnumbered}
+
+::: {#refs}
+:::
+
+week1
+
+Phiri, D., Simwanda, M., Salekin, S., Nyirenda, V.R., Murayama, Y. and Ranagalage, M., 2020. Sentinel-2 data for land cover/use mapping: A review. Remote sensing, 12(14), p.2291.
+
+Segarra, J., Buchaillot, M.L., Araus, J.L. and Kefauver, S.C., 2020. Remote sensing for precision agriculture: Sentinel-2 improved features and applications. Agronomy, 10(5), p.641.
+
+Van der Meer, F.D., Van der Werff, H.M.A. and Van Ruitenbeek, F.J.A., 2014. Potential of ESA's Sentinel-2 for geological applications. Remote sensing of environment, 148, pp.124-133.
+
+
+week2
+
+- ESA (2026) Instrument. [Online].Available from: https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-2/Instrument [Accessed: 24 January 2026]. 
+- ESA (2026) Introducing Sentinel-2. [Online].Available from: https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-2/Introducing_Sentinel-2#:~:text=Satellite%20images%20can%20be%20used,2B%20on%207%20March%202017. [Accessed: 24 January 2026]. 
+- ESA (2026) Satellite constellation. [Online].Available from: https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-2/Satellite_constellation [Accessed: 24 January 2026]. 
+- ESA (2026) Sentinel-2 Colour vision for Copernicus. [Online].Available from: https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-2 [Accessed: 24 January 2026]. 
+- Farhadi, H., Ebadi, H., Kiani, A. and Asgary, A., (2025). Introducing a new index for flood mapping using Sentinel-2 imagery (SFMI). Computers & Geosciences, 194, p.105742.
+- Kumari, A. and Karthikeyan, S., (2023). Sentinel-2 data for land use/land cover mapping: A meta-analysis and review. SN Computer Science, 4(6), p.815.
+- Phiri, D., Simwanda, M., Salekin, S., Nyirenda, V.R., Murayama, Y. and Ranagalage, M., (2020). Sentinel-2 data for land cover/use mapping: A review. Remote sensing, 12(14), p.2291.
+- Xu, F., Heremans, S. and Somers, B., (2022). Urban land cover mapping with Sentinel-2: A spectro-spatio-temporal analysis. Urban Informatics, 1(1), p.8.
+
+
+Week 3
+
+Guanter, L., Estellés, V. and Moreno, J., 2007. Spectral calibration and atmospheric correction of ultra-fine spectral and spatial resolution remote sensing data. Application to CASI-1500 data. Remote Sensing of Environment, 109(1), pp.54-65.
+
+Nazeer, M., Ilori, C.O., Bilal, M., Nichol, J.E., Wu, W., Qiu, Z. and Gayene, B.K., 2021. Evaluation of atmospheric correction methods for low to high resolutions satellite remote sensing data. Atmospheric Research, 249, p.105308.
+
+Toutin, T., 2011. State-of-the-art of geometric correction of remote sensing data: a data fusion perspective. International Journal of Image and Data Fusion, 2(1), pp.3-35.
+
+week 4
+
+City of London Corporation (2023) City of London Strategic Flood Risk Assessment 2023. [Online].Available from: https://www.cityoflondon.gov.uk/assets/Services-Environment/city-of-london-strategic-flood-risk-assessment-2023-and-appendices-16.6-MB.pdf [Accessed: 17 February 2026]. 
+
+London City Hall  (2021) The London Plan 2021. [Online].Available from: https://www.london.gov.uk/programmes-strategies/planning/london-plan/the-london-plan-2021-table-contents [Accessed: 17 February 2026]. 
+
+Callum and Environment Agency  (2022) London Strategic Flood Response Framework. [Online].Available from: https://www.london.gov.uk/sites/default/files/london_strategic_flood_response_framework_2022_v5.0_june_2022_-_public_facing.pdf [Accessed: 17 February 2026]. 
+
+
+West London Strategic Flood Risk Assessment (2026) Surface Water Flood Risk. [Online].Available from: https://metis.maps.arcgis.com/apps/webappviewer/index.html?id=b071bc3722024087b3ba905b8550bb55 [Accessed: 17 February 2026]. 
+
+week 5
+
+Aguilar, R., Zurita-Milla, R., Izquierdo-Verdiguier, E. and A. de By, R., (2018). A cloud-based multi-temporal ensemble classifier to map smallholder farming systems. Remote sensing, 10(5), p.729.
+
+c, J., Cardille, J.A. and Coe, M.T., (2018). BULC-U: Sharpening resolution and improving accuracy of land-use/land-cover classifications in Google Earth Engine. Remote Sensing, 10(9), p.1455.
+
+He, M., Kimball, J.S., Maneta, M.P., Maxwell, B.D., Moreno, A., Beguería, S. and Wu, X., (2018). Regional crop gross primary productivity and yield estimation using fused landsat-MODIS data. Remote Sensing, 10(3), p.372.
+
+Kumar, L. and Mutanga, O., (2018). Google Earth Engine applications since inception: Usage, trends, and potential. Remote sensing, 10(10), p.1509.
+
+Mutanga, O. and Kumar, L., (2019). Google earth engine applications. Remote sensing, 11(5), p.591.
+
+Tsai, Y.H., Stow, D., Chen, H.L., Lewison, R., An, L. and Shi, L., (2018). Mapping vegetation and land use types in Fanjingshan National Nature Reserve using google earth engine. Remote Sensing, 10(6), p.927.
+
+Ravanelli, R., Nascetti, A., Cirigliano, R.V., Di Rico, C., Leuzzi, G., Monti, P. and Crespi, M., (2018). Monitoring the impact of land cover change on surface urban heat island through Google Earth Engine: Proposal of a global methodology, first applications and problems. Remote Sensing, 10(9), p.1488.
+
+Zhao, Q., Yu, L., Li, X., Peng, D., Zhang, Y. and Gong, P., (2021). Progress and trends in the application of Google Earth and Google Earth Engine. Remote Sensing, 13(18), p.3778.
+
+Velastegui-Montoya, A., Montalván-Burbano, N., Carrión-Mero, P., Rivera-Torres, H., Sadeck, L. and Adami, M., (2023). Google Earth Engine: a global analysis and future trends. Remote Sensing, 15(14), p.3675.
+
+
+week 6
+
+Choudhary, K., Shi, W., Dong, Y. and Paringer, R., (2022). Random Forest for rice yield mapping and prediction using Sentinel-2 data with Google Earth Engine. Advances in Space Research, 70(8), pp.2443-2457.
+
+Magidi, J., Nhamo, L., Mpandeli, S. and Mabhaudhi, T., (2021). Application of the random forest classifier to map irrigated areas using google earth engine. Remote Sensing, 13(5), p.876.
+
+Pande, C.B., Srivastava, A., Moharir, K.N., Radwan, N., Mohd Sidek, L., Alshehri, F., Pal, S.C., Tolche, A.D. and Zhran, M., (2024). Characterizing land use/land cover change dynamics by an enhanced random forest machine learning model: a Google Earth Engine implementation. Environmental Sciences Europe, 36(1), p.84.
+
+week 7
+
+Lv, S. and Hong, L., 2024, May. Based on Google earth engine platform to extract cropland using OBIA methods. In 2024 IEEE 6th Advanced Information Management, Communicates, Electronic and Automation Control Conference (IMCEC) (Vol. 6, pp. 937-940). IEEE.
+
+Guirado, E., Tabik, S., Alcaraz-Segura, D., Cabello, J. and Herrera, F., 2017. Deep-learning versus OBIA for scattered shrub detection with Google earth imagery: Ziziphus Lotus as case study. Remote Sensing, 9(12), p.1220.
+
+
+Tilahun, A. and Teferie, B., 2015. Accuracy assessment of land use land cover classification using Google Earth. American Journal of Environmental Protection, 4(4), pp.193-198.
+
+Alqahtani, T., 2024. Assessing geospatial accuracy in mapping applications: A focus on google earth. Civ Eng J, 10(8), pp.2615-30.
+
+week 8
+
+Almeida, C.R.D., Teodoro, A.C. and Gonçalves, A., (2021). Study of the urban heat island (UHI) using remote sensing data/techniques: A systematic review. Environments, 8(10), p.105.
+
+Diem, P.K., Nguyen, C.T., Diem, N.K., Diep, N.T.H., Thao, P.T.B., Hong, T.G. and Phan, T.N., (2024). Remote sensing for urban heat island research: Progress, current issues, and perspectives. Remote Sensing Applications: Society and Environment, 33, p.101081.
+
+Zhou, D., Xiao, J., Bonafoni, S., Berger, C., Deilami, K., Zhou, Y., Frolking, S., Yao, R., Qiao, Z. and Sobrino, J.A., (2018). Satellite remote sensing of surface urban heat islands: Progress, challenges, and perspectives. Remote Sensing, 11(1), p.48.

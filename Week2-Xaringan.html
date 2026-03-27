@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Week 2 - Remote Sensing Sensor</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Zeyi Wu" />
+    <script src="Week2-Xaringan_files/header-attrs-2.30/header-attrs.js"></script>
+    <link href="Week2-Xaringan_files/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="Week2-Xaringan_files/remark-css-0.0.1/metropolis.css" rel="stylesheet" />
+    <link href="Week2-Xaringan_files/remark-css-0.0.1/metropolis-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# Week 2 - Remote Sensing Sensor
+]
+.author[
+### Zeyi Wu
+]
+
+---
+
+
+&lt;style&gt;
+.small-text li {
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+.note-box {
+  background: #eef3f3;
+  padding: 18px;
+  border-left: 5px solid #23444b;
+  border-radius: 8px;
+  font-size: 0.9em;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+.note-box h3 {
+  margin-top: 0;
+  color: #23444b;
+}
+&lt;/style&gt;
+
+# Summary: What is Sentinel-2?
+
+.pull-left[
+
+### Overview
+
+- Part of the Copernicus Earth observation programme (ESA)
+
+- Multispectral land monitoring mission  
+
+- Constellation: Sentinel-2A and Sentinel-2B  
+
+]
+
+.pull-right[
+
+### Launch dates
+
+- Sentinel-2A — 23 June 2015  
+
+- Sentinel-2B — 7 March 2017  
+
+- Sentinel-2C — 5 September 2024  
+
+&lt;br&gt;
+
+                                      (Source: ESA)
+
+]
+---
+
+# Summary: Key characteristics
+
+.pull-left[
+- Equipped with a Multispectral Instrument (MSI), combining a 290 km swath width with 13 spectral bands  
+
+- Bands cover the visible, near-infrared (NIR), and shortwave infrared (SWIR) regions  
+
+- 4 bands at 10 m resolution, 6 bands at 20 m, and 3 bands at 60 m  
+
+- Relatively short revisit time  
+
+- Calibration system with Spectralon diffuser  
+
+- ~1 TB data per day  
+                                 (Source:EPA)
+]
+
+.pull-right[
+![](img/W2_1.png)
+Interior photo of the “Sentinel-2” (Source:EPA)
+]
+
+---
+
+# Summary: Applications &amp; Importance 
+
+.pull-left[
+### Main applications
+
+- **Agriculture &amp; forestry**  
+  Monitoring vegetation and crop health  
+
+- **Land cover mapping**  
+  Detecting urban expansion and land use change  
+
+- **Ecosystems**  
+  Tracking deforestation and biodiversity  
+
+- **Water &amp; environment**  
+  Detecting pollution and algal blooms  
+
+- **Disaster mapping**  
+  Floods, landslides, volcanic events  
+]
+
+.pull-right[
+### Why this sensor matters
+
+- Widely available and easy to access  
+
+- Strong analytical capability  
+
+- Multispectral bands enable detailed observation  
+
+- Suitable for research and policy use  
+]
+---
+
+# Application: Vegetation monitoring
+
+- Used for vegetation condition studies, agricultural monitoring, and ecosystem change analysis
+
+- Red-edge and near-infrared bands widely used for assessing plant health and biomass
+
+- NDVI and similar indices derived from Sentinel-2 data used to evaluate vegetation stress, seasonal variation, and estimate chlorophyll content and moisture, supporting irrigation optimisation
+
+- Sentinel-2 enables detailed monitoring of land cover and land use, including crops, forests, urban areas, and water resources
+
+ (Phiri et al.,2020)
+
+---
+
+# Application: Flood and water mapping
+
+.pull-left[
+- Used for mapping water bodies and flood extent, with Sentinel-2 data enabling more accurate identification of water and inundated areas
+
+- Significant technical advances in water indices, clustering, classification, and sub-pixel analysis
+
+- Near-infrared and shortwave infrared bands help distinguish water from surrounding land surfaces
+
+- Applicable to flood management and monitoring of reservoirs, lakes, wetlands, and rivers
+
+ (Farhadi et al.,2025)
+]
+
+.pull-right[
+&lt;img src="img/W2_3.png" style="height:420px; display:block; margin:auto;" /&gt;
+
+Flood/Water Mapping Samples  
+*(Farhadi et al., 2025)*
+]
+
+---
+
+# Application: Urban and land-cover studies
+
+### Main uses
+
+- Used for urban expansion studies, land cover classification, and urban green space analysis  
+
+- Data used to identify built-up areas, vegetation cover, and broader spatial patterns of environmental change  
+
+- Aimed at supporting sustainable planning, urban monitoring, and environmental assessment  
+
+### Key limitation
+
+- Although Sentinel-2 cannot capture very fine urban detail, its 10 m spatial resolution remains highly useful for medium-scale urban analysis  
+
+### Reference
+
+Kumari and Karthikeyan (2023)
+
+---
+
+# Reflection: Advantages &amp; Limitations
+
+.pull-left[
+### Advantages
+
+- Provides free and open-access data,  
+  enabling widespread use in research and practical applications  
+
+- Multispectral bands combined with relatively high revisit frequency  
+  make it particularly suitable for monitoring changes in vegetation,  
+  water bodies, and land surface conditions over time  
+
+- Achieves a strong balance between analytical capability and accessibility,  
+  supporting both academic research and applied work  
+]
+
+.pull-right[
+### Limitations
+
+- Spatial resolution is not sufficiently fine to capture heterogeneous  
+  urban landscapes or enable very detailed feature-level analysis  
+  in complex urban areas, and may not fully represent spectral variability  
+  of urban surface materials, increasing the likelihood of misclassification(Xu et al.,2022)  
+
+- As an optical sensor, Sentinel-2 is affected by cloud cover,  
+  which can reduce data availability and limit observations  
+  in certain regions or seasons  
+]
+
+---
+
+# Reflection: what this sensor highlights
+
+- After examining the advantages and limitations of Sentinel-2,  
+  I realised that no sensor can be considered universally  
+  “best” in all contexts  
+
+- The value of a sensor depends on how well its characteristics  
+  align with the research objectives  
+
+- Sentinel-2 appears particularly useful when the aim is to monitor  
+  large-scale environmental patterns rather than very fine detail  
+
+- This has helped me develop a more critical perspective on remote sensing,  
+  as it is not only about what data are available,  
+  but also about what those data can and cannot reveal  
+
+- Overall, this task has encouraged me to think more carefully  
+  about the relationship between sensor design, research objectives,  
+  and analytical outcomes  
+
+
+---
+
+# 10. Reference
+
+- ESA (2026) Instrument. [Online].Available from: https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-2/Instrument [Accessed: 24 January 2026]. 
+- ESA (2026) Introducing Sentinel-2. [Online].Available from: https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-2/Introducing_Sentinel-2#:~:text=Satellite%20images%20can%20be%20used,2B%20on%207%20March%202017. [Accessed: 24 January 2026]. 
+- ESA (2026) Satellite constellation. [Online].Available from: https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-2/Satellite_constellation [Accessed: 24 January 2026]. 
+- ESA (2026) Sentinel-2 Colour vision for Copernicus. [Online].Available from: https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-2 [Accessed: 24 January 2026]. 
+- Farhadi, H., Ebadi, H., Kiani, A. and Asgary, A., (2025). Introducing a new index for flood mapping using Sentinel-2 imagery (SFMI). Computers &amp; Geosciences, 194, p.105742.
+- Kumari, A. and Karthikeyan, S., (2023). Sentinel-2 data for land use/land cover mapping: A meta-analysis and review. SN Computer Science, 4(6), p.815.
+- Phiri, D., Simwanda, M., Salekin, S., Nyirenda, V.R., Murayama, Y. and Ranagalage, M., (2020). Sentinel-2 data for land cover/use mapping: A review. Remote sensing, 12(14), p.2291.
+- Xu, F., Heremans, S. and Somers, B., (2022). Urban land cover mapping with Sentinel-2: A spectro-spatio-temporal analysis. Urban Informatics, 1(1), p.8.
+
+
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+  "ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

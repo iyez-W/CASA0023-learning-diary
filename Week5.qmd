@@ -1,0 +1,51 @@
+# Week 5 – Google Earth Engine I
+
+# Summary
+
+## How to use GEE - Step by Step
+
+Step 1: Defining the study area. The practical began by setting up the study area in Google Earth Engine (GEE). This was first done using a point geometry, which allowed the map to be centred on the location and provided an initial spatial reference for filtering imagery.
+
+Step 2: Loading Landsat imagery The next step was to load Landsat surface reflectance data as an image collection. Rather than working with a single image, GEE allows multiple scenes to be stored in a collection, which is useful for later filtering and compositing.
+
+Step 3: Filtering imagery by date and location After loading the dataset, the image collection was filtered by date and spatial extent so that only scenes relevant to the study period and study area were retained. This reduced unnecessary data and made the analysis more efficient.
+
+Step 4: Filtering by cloud cover To improve image quality, cloud-contaminated scenes were removed by applying a cloud cover threshold. This step was important because clouds can strongly affect image interpretation and later calculations.
+
+Step 5: Applying scale factors Landsat Collection 2 imagery requires scaling before analysis, because the raw band values are not yet in meaningful reflectance or temperature units. A scaling function was therefore applied across the image collection.
+
+Step 6: Creating a composite image Because several images were available for the study area, the collection was reduced into a single composite image using a reducer such as mean or median. This helped solve the problem of overlapping scenes and incomplete spatial coverage.
+
+Step 7: Clipping the image to the study boundary Once a composite had been created, it was clipped to the study area so that only the relevant spatial extent remained. Specific spectral bands were also selected for further analysis and visualisation.
+
+Step 8: Calculating texture The practical then introduced texture analysis using GLCM. Since texture functions require integer values, the reflectance data first had to be multiplied and converted before texture measures could be derived.
+
+Step 9: Running PCA PCA was then carried out to reduce the dimensionality of the dataset and identify the main spatial patterns within the spectral and texture variables. This involved centring the data, calculating covariance and extracting principal components.
+
+Step 10: Exporting the results Finally, the outputs were exported from GEE to Google Drive for future use in other software or later analysis.
+
+# Application
+
+Google Earth Engine (GEE) has particular value for long-term monitoring, large-scale mapping, and operational decision support, as it integrates multi-source datasets, ready-to-use algorithms, and export functions within a single platform. Its development has made the processing of global and regional time-series imagery considerably more efficient than traditional desktop-based workflows. In particular, Landsat, as one of the most widely used datasets, has been applied across a broad range of fields, from forest and vegetation studies to medical research, including applications related to malaria (Kumar and Mutanga, 2018; Zhao et al., 2021).
+
+## vegetation and ecosystem monitoring
+
+Mutanga and Kumar (2019) review several applications in which GEE has been used to estimate biodiversity-related variables, such as leaf area index, fraction of absorbed photosynthetically active radiation, vegetation cover, and canopy water content, as well as to monitor vegetation dynamics over time. They also highlight practical examples, including the use of MODIS-derived Enhanced Vegetation Index (EVI) for vegetation monitoring in Vietnam, multi-season Landsat composites for land cover and vegetation mapping in a nature reserve in China, and long-term mapping of pasture dynamics in Brazil between 2000 and 2016.
+
+## land use and land cover mapping.
+
+Previous studies have used it to generate dynamic land cover maps of Beijing and to reconstruct more than three decades of land use and land cover change across Brazilian biomes (Lee et al., 2018; Tsai et al., 2018). In addition, large volumes of surface temperature data have been successfully extracted using thousands of Landsat images over extended time periods, demonstrating GEE’s capacity to process and analyse large-scale, long-term datasets (Ravanelli et al., 2018; Velastegui-Montoya et al., 2023).
+
+## agriculture and disaster management.
+
+Studies have applied it to cropland mapping in the United States and across Africa, mapping of smallholder farming systems, crop yield estimation, flood monitoring and emergency response, flood inundation mapping, and the analysis of global soil moisture datasets (Aguilar et al., 2018; He et al., 2018). These examples indicate that GEE functions not only as a research tool, but also as a platform capable of supporting real-world monitoring and early warning systems.
+
+# Reflection
+
+This week marked my first substantial engagement with Google Earth Engine (GEE), and it was the first time that remote sensing felt more tangible in practice. My experience with GEE coding has been mixed. At the outset, it felt unfamiliar and somewhat challenging, as its syntax and logic differ from both Python and R, requiring a degree of adjustment. However, once I began working through the workflow, it became more intuitive and, at times, quite engaging. From defining a study area and filtering imagery to generating outputs and exporting results, the process can be carried out in a relatively continuous and coherent manner. This made it easier to see how different stages of a remote sensing analysis are connected. That said, my familiarity with the code remains limited, and even minor errors can still be difficult to troubleshoot with confidence.
+
+The practical exercises also highlighted that each step in the workflow serves a clear purpose. Filtering imagery by date, location, and cloud cover is not merely a technical step, but one that directly influences the quality of the final outputs. Similarly, processes such as scaling, compositing, and clipping are integral to ensuring meaningful results. Initially, I approached these steps in a procedural way, following instructions without fully understanding their significance. However, through repeated practice, I began to develop a clearer sense of what each step achieves and why it is necessary.
+
+At the same time, it became evident that GEE does not inherently simplify remote sensing analysis. While it streamlines data processing and centralises workflows, it does not eliminate the need for critical thinking. Decisions regarding how to structure the workflow, which methods to apply, and how to interpret the outputs still require careful consideration. Without a clear understanding of the analytical choices being made, the resulting outputs may not meaningfully support the intended analysis.
+
+Finally, the case studies presented in the literature reinforced the breadth of applications supported by GEE. The same platform can be applied to vegetation monitoring, land cover change analysis, agricultural assessment, and flood mapping, with different datasets, indices, and methods selected according to the research objective. This highlighted that the skills developed this week extend beyond a single exercise and are likely to be relevant for future coursework and research.
