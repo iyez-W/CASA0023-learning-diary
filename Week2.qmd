@@ -1,4 +1,6 @@
-# Week 2 - Sensors
+# Week 2 Sensors
 
-waiting for my ppt link 
+This is a short presentation discussing the Sentinel 2 
 
+A Xaringan presentation link: 
+[View the Xaringan presentation](https://iyez-w.github.io/CASA0023-learning-diary/Week2-Xaringan.html)
