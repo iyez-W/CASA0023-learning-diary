@@ -1,11 +1,15 @@
-CASA
+---
+title: "Remote sensing Diary"
+author: "Zeyi Wu"
+date: ""
+number-sections: false
+---
 
-# Preface {.unnumbered}
+## About me 
 
-This is a Quarto book.
+Hi, I am Zeyi, a master’s student in Urban Spatial Science at UCL. Before joining this programme, I studied Geography and Environmental Science, where I developed a strong interest in environmental issues, spatial data, and the ways geospatial methods can be used to explore complex urban and environmental processes.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+My academic interests lie in GIS, remote sensing, spatial analysis, and data-driven approaches to environmental research. I have experience working with Python, R, and GIS-based tools, and I am especially interested in how satellite data and Earth Observation can help us better understand cities, environmental change, and spatial patterns that may not be visible from ground-level observations alone.
 
-```{r}
-1 + 1
-```
+## About Learning Diary
+This learning diary documents my understanding of the module as it develops week by week. It includes short reflections on lecture content, practical tasks, and examples of how remote sensing techniques can be applied in different contexts. Through this module, I hope to strengthen both my conceptual understanding and practical skills, and to think more critically about how remote sensing can be used in future research and real-world applications.
