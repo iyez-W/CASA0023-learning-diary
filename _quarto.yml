@@ -5,6 +5,7 @@ book:
   title: "Remote sensing Diary"
   author: "Zeyi Wu"
   date: "1/20/2026"
+  site-url: "https://iyez-w.github.io/CASA0023-learning-diary/"
   chapters:
     - index.qmd
     - Week1.qmd
