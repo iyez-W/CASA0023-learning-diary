@@ -1,35 +1,53 @@
-# Week 5 Google Earth Engine 
+# Week 5 Google Earth Engine
 
 ## Summary
 
-### How to use GEE - Step by Step
+### Google Earth Engine
 
-Step 1: Defining the study area. The practical began by setting up the study area in Google Earth Engine (GEE). This was first done using a point geometry, which allowed the map to be centred on the location and provided an initial spatial reference for filtering imagery.
+- Google Earth Engine (GEE) is a cloud-based platform for geospatial processing and remote sensing analysis.
+- It allows users to access and analyse large Earth observation datasets without handling all data locally.
+- It is especially valuable for remote sensing because many studies rely on large image archives, repeated processing and multi-temporal comparison.
+- This means that GEE is not only a data platform, but also an analytical environment.
 
-Step 2: Loading Landsat imagery The next step was to load Landsat surface reflectance data as an image collection. Rather than working with a single image, GEE allows multiple scenes to be stored in a collection, which is useful for later filtering and compositing.
+### Image collection
 
-Step 3: Filtering imagery by date and location After loading the dataset, the image collection was filtered by date and spatial extent so that only scenes relevant to the study period and study area were retained. This reduced unnecessary data and made the analysis more efficient.
+- An image collection is a group of related satellite images stored together as a dataset.
+- Instead of treating one image as the whole study material, remote sensing often works with many scenes collected across time or space.
+- This is important because environmental analysis usually depends on comparing, combining or selecting from multiple images rather than relying on a single scene.
 
-Step 4: Filtering by cloud cover To improve image quality, cloud-contaminated scenes were removed by applying a cloud cover threshold. This step was important because clouds can strongly affect image interpretation and later calculations.
+### Composite image
 
-Step 5: Applying scale factors Landsat Collection 2 imagery requires scaling before analysis, because the raw band values are not yet in meaningful reflectance or temperature units. A scaling function was therefore applied across the image collection.
+- A composite image is a new image produced by combining multiple scenes into one output.
+- Methods such as mean, median and mosaic create different types of composites.
+- The purpose of a composite is to reduce noise, improve consistency and create a more useful representation of the study area.
 
-Step 6: Creating a composite image Because several images were available for the study area, the collection was reduced into a single composite image using a reducer such as mean or median. This helped solve the problem of overlapping scenes and incomplete spatial coverage.
+### Texture analysis
 
-Step 7: Clipping the image to the study boundary Once a composite had been created, it was clipped to the study area so that only the relevant spatial extent remained. Specific spectral bands were also selected for further analysis and visualisation.
+- Texture analysis examines the spatial arrangement and variation of pixel values, rather than focusing only on their individual spectral values.
+- It is useful because surfaces with similar reflectance can still differ in roughness, heterogeneity or spatial pattern.
+- Texture can reveal additional information that ordinary band values may miss.
+- Texture analysis extends remote sensing beyond simple colour or brightness differences.
 
-Step 8: Calculating texture The practical then introduced texture analysis using GLCM. Since texture functions require integer values, the reflectance data first had to be multiplied and converted before texture measures could be derived.
+### PCA
 
-Step 9: Running PCA PCA was then carried out to reduce the dimensionality of the dataset and identify the main spatial patterns within the spectral and texture variables. This involved centring the data, calculating covariance and extracting principal components.
+- Principal Component Analysis (PCA) is a dimensionality reduction technique that transforms correlated spectral bands into a smaller number of new variables called principal components.
+- These components summarise the main patterns of variation in the image.
+- The first components usually capture most of the information, while later components contain less variation or more noise.
+- PCA is important because it simplifies complex multispectral data and can make major spectral contrasts easier to detect and interpret.
 
-Step 10: Exporting the results Finally, the outputs were exported from GEE to Google Drive for future use in other software or later analysis.
+### NDVI
+
+- NDVI, or the Normalised Difference Vegetation Index, is a vegetation index calculated from the red and near-infrared bands.
+- It is based on the idea that healthy vegetation absorbs red light for photosynthesis but reflects near-infrared strongly.
+- Higher NDVI values generally indicate denser or healthier vegetation, while lower values are associated with bare ground, built surfaces or water.
+- It turns raw spectral data into a more interpretable environmental indicator.
+
 
 ## Application
 
 Google Earth Engine (GEE) has particular value for long-term monitoring, large-scale mapping, and operational decision support, as it integrates multi-source datasets, ready-to-use algorithms, and export functions within a single platform. Its development has made the processing of global and regional time-series imagery considerably more efficient than traditional desktop-based workflows. In particular, Landsat, as one of the most widely used datasets, has been applied across a broad range of fields, from forest and vegetation studies to medical research, including applications related to malaria (Kumar and Mutanga, 2018; Zhao et al., 2021).
 
-![Keywords related to Google Earth Engine  (Zhao et al., 2021)](img/W5_1.png){width="70%"}
-
+![Keywords related to Google Earth Engine (Zhao et al., 2021)](img/W5_1.png){width="70%"}
 
 ##3 vegetation and ecosystem monitoring
 
@@ -39,7 +57,7 @@ Mutanga and Kumar (2019) review several applications in which GEE has been used 
 
 Previous studies have used it to generate dynamic land cover maps of Beijing and to reconstruct more than three decades of land use and land cover change across Brazilian biomes (Lee et al., 2018; Tsai et al., 2018). In addition, large volumes of surface temperature data have been successfully extracted using thousands of Landsat images over extended time periods, demonstrating GEE’s capacity to process and analyse large-scale, long-term datasets (Ravanelli et al., 2018; Velastegui-Montoya et al., 2023).
 
-![Evolution of key remote sensing applications in Google Earth Engine  (Velastegui-Montoya., 2023)](img/W5_2.png){width="70%"}
+![Evolution of key remote sensing applications in Google Earth Engine (Velastegui-Montoya., 2023)](img/W5_2.png){width="70%"}
 
 ### agriculture and disaster management.
 
@@ -54,3 +72,6 @@ The practical exercises also highlighted that each step in the workflow serves a
 At the same time, it became evident that GEE does not inherently simplify remote sensing analysis. While it streamlines data processing and centralises workflows, it does not eliminate the need for critical thinking. Decisions regarding how to structure the workflow, which methods to apply, and how to interpret the outputs still require careful consideration. Without a clear understanding of the analytical choices being made, the resulting outputs may not meaningfully support the intended analysis.
 
 Finally, the case studies presented in the literature reinforced the breadth of applications supported by GEE. The same platform can be applied to vegetation monitoring, land cover change analysis, agricultural assessment, and flood mapping, with different datasets, indices, and methods selected according to the research objective. This highlighted that the skills developed this week extend beyond a single exercise and are likely to be relevant for future coursework and research.
+
+
+
