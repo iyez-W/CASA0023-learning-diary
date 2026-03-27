@@ -1,6 +1,6 @@
-# Week 4 – Policy
+# Week 4 Policy
 
-# London Flood Risk Management Framework
+**London Flood Risk Management Framework**
 
 ## Summary
 
@@ -10,21 +10,23 @@ The severity of this challenge is further reinforced by the presence of multiple
 
 Spatial evidence further shows that flood risk is not evenly distributed across London. Surface water flood risk maps for West London, for example, indicate clear spatial variation, with risks concentrated along drainage pathways, river networks, and specific localised hotspots. This suggests that effective flood risk management requires not only recognising the existence of flooding, but also identifying where exposure and vulnerability are most concentrated. From this perspective, London’s policy approach extends beyond post-event response towards the proactive identification of at-risk areas, alongside the implementation of planning and drainage measures to reduce risk and enhance long-term resilience.
 
+![Surface water flood risk maps  (VWest London Strategic Flood Risk Assessment., 2026)](img/week4.png){width="70%"}
+
 ## Application
 
-Within this policy and environmental context, remote sensing data can  providing spatial evidence to identify flood-prone or flood-affected areas, thereby supporting flood risk management strategies.
+Within this policy and environmental context, remote sensing data can providing spatial evidence to identify flood-prone or flood-affected areas, thereby supporting flood risk management strategies.
 
 Synthetic Aperture Radar (SAR) imagery represents a particularly suitable primary remote sensing dataset for supporting flood risk management in London, with elevation or terrain data providing an important complementary source of evidence. Flood events often occur under conditions of heavy rainfall and cloud cover, where optical imagery is limited in its effectiveness. In contrast, SAR data can capture surface conditions regardless of weather or illumination, making it more reliable for identifying flood-affected areas. Terrain data adds a critical topographic dimension by helping to identify low-lying areas where water is more likely to accumulate. This is especially relevant in the London context, where current policy emphasises the need to identify areas subject to both site-specific and cumulative flood risks, and to mitigate these through planning and drainage interventions (London City Hall, 2021).
 
-- First acquiring SAR imagery corresponding to a specific flood event, alongside elevation or terrain data for the same area. 
-- The SAR data can then be used to delineate the likely extent of flooding, while the terrain data helps to identify low-lying zones that may remain susceptible even beyond a single event. 
-- These outputs can subsequently be overlaid with land use, transport infrastructure, and population data to identify areas of higher exposure and vulnerability. 
+-   First acquiring SAR imagery corresponding to a specific flood event, alongside elevation or terrain data for the same area.
+-   The SAR data can then be used to delineate the likely extent of flooding, while the terrain data helps to identify low-lying zones that may remain susceptible even beyond a single event.
+-   These outputs can subsequently be overlaid with land use, transport infrastructure, and population data to identify areas of higher exposure and vulnerability.
 
 This step is critical, as the challenge of flood risk management in London lies not only in anticipating where flooding may occur, but also in understanding where impacts are likely to be greatest and where intervention is most needed (Callum and Environment Agency, 2022).
 
 From a policy perspective, such spatial analysis can inform more targeted planning decisions, including where additional drainage measures, flood-resilient design, or development restrictions may be required. It can also support preparedness by helping local authorities prioritise areas for monitoring, early warning, and emergency response. The strength of this approach lies in its ability to provide spatially continuous evidence across a metropolitan scale. However, while remote sensing can indicate where flooding or physical vulnerability may be concentrated, it cannot, on its own, account for drainage performance, infrastructure condition, or the broader social consequences of flood events. It is therefore most effective when used in conjunction with local flood assessments and planning judgement, rather than as a standalone solution (City of London Corporation, 2023; Callum and Environment Agency, 2022).
 
-## Reflection 
+## Reflection
 
 Flood risk management in London extends beyond an environmental concern and is fundamentally shaped by governance and planning processes. Although flooding is commonly framed as a natural hazard, the policy documents discussed here indicate that planning frameworks, infrastructure provision, and institutional coordination play an equally important role in managing risk. The key issue is not simply the occurrence of flooding, but how decision-makers identify areas of highest risk, determine which assets and communities are most vulnerable, and allocate limited resources accordingly. This also highlights that flood risk is unevenly experienced: even where levels of physical exposure are comparable, outcomes may vary depending on infrastructure quality, land use, and local capacity to respond.
 
